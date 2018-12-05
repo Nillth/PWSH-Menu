@@ -19,7 +19,7 @@
 	RootModule = 'MenuSelect.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '1.0.0.1'
+	ModuleVersion = '1.0.0.2'
 	
 	# ID used to uniquely identify this module
 	GUID = '2b6b616d-c6b4-4114-9ca1-00faa756bd9e'

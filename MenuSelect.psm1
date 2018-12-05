@@ -31,7 +31,11 @@ function New-MenuSelect
 				Write-Host "$($CountItems)" -NoNewline -ForegroundColor Green
 				if ($null -ne $DisplayProperty)
 				{
-					Write-Host ": $($Item.$($DisplayProperty))"
+					foreach ($Display in $DisplayProperty)
+					{
+						Write-Host ":`t$($Item.$($Display))" -NoNewline
+					}
+					Write-Host ""
 				}
 				else
 				{
